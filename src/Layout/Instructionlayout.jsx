@@ -12,7 +12,7 @@ export default function Instructionlayout() {
       </ul>
       <div className="buttons">
         <Link className="left" to='/'>Go back</Link>
-        <Link className="right" to="/Gamelayout">Play Game</Link>
+        <Link className="right" to="/quiz-app/Gamelayout">Play Game</Link>
       </div>
     </section>
   );
