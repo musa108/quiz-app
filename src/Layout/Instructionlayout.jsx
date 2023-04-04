@@ -11,7 +11,7 @@ export default function Instructionlayout() {
         <li>Every Question Carries 1 mark</li>
       </ul>
       <div className="buttons">
-        <Link className="left" to='/'>Go back</Link>
+        <Link className="left" to='/quiz-app/'>Go back</Link>
         <Link className="right" to="/quiz-app/Gamelayout">Play Game</Link>
       </div>
     </section>

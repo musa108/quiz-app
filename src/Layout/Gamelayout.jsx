@@ -110,7 +110,7 @@ const Gamelayout = () => {
             <div className='text-[#fff]'>
               <h3>Your Score: {score}</h3>
               <p>Thank you for playing!</p>
-              <Link className='text-blue-800' to='/'>Go back Home</Link>
+              <Link className='text-blue-800' to='/quiz-app/'>Go back Home</Link>
             </div>
           )}
         </>

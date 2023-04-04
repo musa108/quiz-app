@@ -23,7 +23,7 @@ export default function Homelayout() {
       </div>
       <h1>Quiz Game</h1>
       <p>An interacive Quiz Game that allows users to answer multiple-choice question</p>
-      <Link to="Instructionlayout">Continue</Link>
+      <Link to="/quiz-app/Instructionlayout">Continue</Link>
     </div>
   );
 }
