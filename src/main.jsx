@@ -16,10 +16,10 @@ import Rootlayout from "./Layout/Rootlayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/[BASE]/" element={<Rootlayout />}>
+    <Route path="/quiz-app/" element={<Rootlayout />}>
       <Route index element={<Homelayout />} />
-      <Route path="/[BASE]/Instructionlayout" element={<Instructionlayout />}/>
-        <Route path="/[BASE]/Gamelayout" element={<Gamelayout/>} />
+      <Route path="/quiz-app/Instructionlayout" element={<Instructionlayout />}/>
+        <Route path="/quiz-app/Gamelayout" element={<Gamelayout/>} />
     </Route>
   )
 );
