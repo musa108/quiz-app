@@ -107,10 +107,10 @@ const Gamelayout = () => {
           {currentQuestion < quizData.length ? (
             renderQuestion()
           ) : (
-            <div className='text-[#fff]'>
+            <div className='text-[#fff] flex flex-col gap-4'>
               <h3>Your Score: {score}</h3>
               <p>Thank you for playing!</p>
-              <Link className='text-blue-800' to='/quiz-app/'>Go back Home</Link>
+              <Link className='text-[#fff] bg-blue-800 text-center p-2 rounded-md' to='/quiz-app/'>Go back Home</Link>
             </div>
           )}
         </>
